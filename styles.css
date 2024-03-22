@@ -1,10 +1,11 @@
+@font-face {
+    font-family: Tanker;
+    src: url(assets/fonts/tanker-regular-webfont.woff);
+}
+
 body {
     background-color: #ebe7db;
     color: #26364c;
     text-align: center;
-}
-
-
-logo {
-    width: 40%;
+    font-family: Tanker;
 }
