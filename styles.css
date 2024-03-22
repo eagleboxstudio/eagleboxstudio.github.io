@@ -6,6 +6,18 @@
 body {
     background-color: #ebe7db;
     color: #26364c;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
     font-family: Tanker;
+}
+
+.container {
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
 }
