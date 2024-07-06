@@ -20,17 +20,19 @@ body {
 
 h3 {
     font-size: 32px;
+    font-weight: 100;
 }
 
 h3 a {
     color: #26364c;
     text-decoration: none; 
-    transition: color 0.3s ease;
+    transition: color 0.5s ease;
 }
 
 h3 a:hover {
     color: #50637d; 
-    text-decoration: none;
+    text-decoration: underline;
+    transition: color 0.5s ease;
 }
 
 
@@ -42,5 +44,10 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
+}
+
+p.copyright-notice {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    font-weight: bold;
 }
