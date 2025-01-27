@@ -1,17 +1,70 @@
+/* Font Definitions */
 @font-face {
-    font-family: Tanker;
-    src: url(assets/fonts/tanker-regular-webfont.woff);
-}
+    font-family: 'Bevellier';
+    src: url('assets/fonts/Bevellier-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bevellier';
+    src: url('assets/fonts/Bevellier-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bevellier';
+    src: url('assets/fonts/Bevellier-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bevellier';
+    src: url('assets/fonts/Bevellier-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bevellier';
+    src: url('assets/fonts/Bevellier-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bevellier';
+    src: url('assets/fonts/Bevellier-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bevellier';
+    src: url('assets/fonts/Bevellier-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bevellier';
+    src: url('assets/fonts/Bevellier-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
 
 body {
-    background-color: #ebe7db;
-    color: #26364c;
+    background-color: #d84444;
+    color: #efefef;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh; 
     margin: 0;
-    font-family: Tanker;
+    font-family: Bevellier;
 }
 
 .container {
@@ -20,17 +73,18 @@ body {
 
 h3 {
     font-size: 32px;
-    font-weight: 100;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 h3 a {
-    color: #26364c;
+    color: #efefef;
     text-decoration: none; 
     transition: color 0.5s ease;
 }
 
 h3 a:hover {
-    color: #50637d; 
+    color: #efefef; 
     text-decoration: underline;
     transition: color 0.5s ease;
 }
@@ -40,14 +94,14 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #26364c;
-    color: #ffffff;
+    background-color: transparent;
+    color: #efefef;
     text-align: center;
     padding: 10px 0;
 }
 
 p.copyright-notice {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
