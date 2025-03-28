@@ -64,7 +64,7 @@ body {
     align-items: center;
     height: 100vh; 
     margin: 0;
-    font-family: Bevellier;
+    font-family: Bevellier, serif;
 }
 
 .container {
@@ -104,4 +104,9 @@ p.copyright-notice {
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.main-logo {
+    width: 550px;
+    height: auto;
 }
